@@ -1,9 +1,29 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer>
+      <div>
+        <h1>One App</h1>
+        <p>@all right reserved</p>
+      </div>
 
-export default Footer
+      <div>
+        <h5>Follow Us</h5>
+        <div>
+          <a href="https://youtube.com" target={"blank"}>
+            Youtube
+          </a>
+          <a href="https://instagram.com" target={"blank"}>
+            Instagram
+          </a>
+          <a href="https://github.com" target={"blank"}>
+            Github
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
